@@ -762,6 +762,14 @@ input[type=submit]{
         margin-bottom: 5%;
     }
 
+    /* hide blog images */
+
+    .blog img {
+        display: none;
+    }
+
+    /* Fill empty divs with background images */
+
     .bobby-bella .empty{
         background-image: url(./assets/right-image.jpg);
     }
