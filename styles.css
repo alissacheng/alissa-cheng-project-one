@@ -624,7 +624,7 @@ input[type=submit]{
         position: absolute;
         top: 20px;
         right: 20px;
-        z-index: 10;
+        z-index: 20;
         height: 25px;
     }
 
@@ -637,6 +637,7 @@ input[type=submit]{
         background-color: rgba(0, 0, 0, 0.85);
         transition: right 0.4s;
         height: 575px;
+        z-index: 15;
     }
     .main-nav li{
         display: block;
@@ -644,9 +645,13 @@ input[type=submit]{
         transition: 0.4s;
     }
 
+    .main-nav li:hover a,
+    .main-nav li:focus a{
+        color: lightgreen;
+    }
+
     .main-nav li:hover,
     .main-nav li:focus{
-        text-transform: uppercase;
         border-bottom: none;
     }
 
@@ -809,6 +814,10 @@ input[type=submit]{
 }
 
 @media (max-width: 490px){
+
+    footer a{
+        font-size: 1.5rem;
+    }
 
     header,
     .main-nav{
