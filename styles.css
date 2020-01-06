@@ -821,7 +821,7 @@ input[type=submit]{
 
     header,
     .main-nav{
-        height: 450px;
+        height: 100vh;
     }
 
     .main-nav li{
